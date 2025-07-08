@@ -1,0 +1,288 @@
+.search-bar{
+    height:70px;
+    display: flex;
+    /* background-color: #253176f0; */
+    margin-right: 3000px;;
+    
+  }
+  .logo{
+    display: flex;
+    justify-content:baseline;
+    height:87px;
+    padding-right: 750px;
+    background-color: rgb(209, 105, 108);
+    width:50%;
+  }
+  .img-logo{
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width:70px;
+  }
+  h1{
+    height: auto;
+    margin-left: 3px;
+    margin-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .search-head{
+    padding-bottom: 50px;
+    display: flex;
+    height: 37px;
+    background-color: #ffffff;
+  }
+  .search-input{
+    width:380px;
+    padding: 9px;
+    height: 20px;
+    margin-top: 5.5%;
+    border-radius: 15px;
+   
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .search-input:focus{
+    opacity: 0.8;
+  }
+  .login-top{
+    width:40px;
+    height: 30px;
+    margin-top: 28px;
+    margin-left: 25px;
+  }
+  .account{
+    margin-left: 10px;
+    
+    display: flex;
+  }
+  .account:hover{
+    opacity: 0.8;
+  }
+  .dropdown-icon{
+    width:17px;
+    margin-left: 50px;
+    
+  }
+  .logout-option{
+    width:20px;
+    background-color:#640505;
+    border:none;
+    padding: 13px;
+    cursor: pointer;
+  }
+  
+  .sidebar{
+    width:300px;
+    height:100%px;
+    background-color: rgb(209, 105, 108);
+    
+  }
+  .sidebar-menu {
+      list-style-type: none;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  .dashboard{
+      padding:7px;
+      display: flex;
+      /* margin-top: 3%; */
+      /* margin-bottom: 3%; */
+      color:rgb(112, 3, 3);
+      font-size:20px;
+      cursor: pointer;
+      border: 1px solid transparent; 
+      margin-bottom: 40px;;
+    
+    }
+    .dashboard1{
+      padding: 5px;
+      
+      /* margin-top: 3%; */
+      /* margin-bottom: 3%; */
+      color:rgb(255, 255, 255);
+      font-size:20px;
+      cursor: pointer;
+       
+    }
+    .dashboard:hover{
+      background-color:rgb(148, 48, 48);
+        color:white;
+    }
+    .dashboard li:hover {
+      text-decoration: underline;
+  }
+  
+  .dashboardimg{
+    height:20px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:22px;
+  }
+  .templateimg{
+    height:50px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:50px;
+  }
+  .campaignimg{
+    height:22px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:28px;
+  }
+  .audienceimg{
+    height:25px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:27px;
+  }
+  .scheduleimg{
+    height:29px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:29px;
+  }
+  .analyticsimg{
+    height:23px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:30px;
+  }
+  .li-outer{
+    margin-left: 10px;
+    margin-top: 30px;;
+    margin-bottom: 5%;
+    list-style: none;
+    color:#5b070758;
+    
+  }
+  .li-inner{
+    margin-left: 0px;
+    list-style: none;
+    font-size: 16px;
+    padding: 12px 12px 12px 0px;
+    border: 1px solid transparent;
+    
+  }
+  li:hover{
+      color:rgb(230, 223, 223);
+      border-color: antiquewhite;
+      opacity: 0.6;
+  }
+  a{
+    text-decoration: none; 
+    color: white;
+  }
+  .sidebar-bottom{
+    background-color: #640505;
+    padding: 10px;
+    width: 280px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .login-header{
+    font-weight: bold;
+  }
+  .dashboard-welcome{
+    margin-left: 23%;
+    margin-top: -37%;
+  }
+  .Foodbridge{
+    color:#fefefe;
+  }
+  
+  /* .background-style {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    
+  } */
+  .a-register{
+  color:blue;
+  } 
+  
+  .register {
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading text */
+    color:#640505;
+    margin-top:-30%;
+    margin-left: -20%;
+
+  }
+  .label{
+    display: block; /* Make label occupy its own line */
+    margin-bottom: 8px; /* Space below the label */
+    font-weight: bold; /* Make label text bold */
+    font-size: 14px; /* Adjust font size */
+    color:rgb(10, 10, 10);
+    margin-left:15px;/* Set text color */
+    margin-top:8px;
+  
+  }
+  
+  .input {
+      border: none;
+      border-bottom: 2px solid black; /* Creates the underline */
+      outline: none; /* Removes the highlight when clicked */
+      background: transparent; /* Removes background */
+      padding: 5px 0;
+      font-size: 16px;
+      width: 100%;
+  }
+  
+  .button{
+    width: 50%; /* Make button occupy full width of the container */
+    padding: 12px; /* Increase padding for better visual balance */
+    background-color: #640505; /* Set a blue background color */
+    color: white; /* Make text color white */
+    border: none; /* Remove default border */
+    border-radius: 6px; /* Slightly more rounded corners */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Make text bold */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    margin-left: 130px;;
+    margin-top:20px;
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .search-input{
+    background-color: #640505;
+  }
+  .request-list{
+    margin-left: 400px;
+  }
+  .request-card{
+    width:600px;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(225, 203, 173);
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .accept-button{
+    padding: 7px;
+    margin: 7px;
+    width:150px;
+    background-color:rgb(209, 105, 108) ;
+    border: none;
+    font-size: large;
+    color:white;
+    cursor: pointer;
+  }
+  .accept-button:hover{
+    opacity: 0.7;
+  }

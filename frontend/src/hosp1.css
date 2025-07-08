@@ -1,0 +1,153 @@
+/* Body reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Dashboard container with flexbox */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(228, 228, 218);
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(100, 5, 5, 0.8);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.profile-img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.account-dropdown {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background-color: rgba(100, 5, 5, 0.9);
+  color: white;
+  padding-top: 80px; /* leave space for navbar */
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+.sidebar li {
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 350px; /* leave space for sidebar */
+  margin-top: 100px; /* leave space for navbar */
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width:50px;
+  margin-right:100px;
+}
+
+.notify-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.notify-form h2 {
+  margin-top: 0;
+}
+
+.notify-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.notify-form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.notify-form button {
+  margin-top: 15px;
+  background-color: #e89309;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notify-form button:disabled {
+  background-color: #ccc;
+}
+
+.notifications-section {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.notifications-section h3 {
+  margin-top: 0;
+}

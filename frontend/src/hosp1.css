@@ -9,7 +9,7 @@ body {
 .dashboard-container {
   display: flex;
   height: 100vh;
-  background-color: rgb(228, 228, 218);
+  background-color: rgb(247, 247, 246);
 }
 
 /* Navbar */
@@ -18,7 +18,7 @@ body {
   top: 0;
   width: 100%;
   height: 70px;
-  background-color: rgba(100, 5, 5, 0.8);
+  background-color: rgba(230, 209, 69, 0.8);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -62,13 +62,19 @@ body {
 
 /* Sidebar */
 .sidebar {
-  width: 200px;
-  background-color: rgba(100, 5, 5, 0.9);
-  color: white;
+  width: 200px !important;
+  background-color: white !important; /* force background to white */
+  color: #333 !important;             /* force text color to dark */
   padding-top: 80px; /* leave space for navbar */
   position: fixed;
   height: 100%;
+  z-index: 999; /* make sure it appears above other layers */
 }
+
+.sidebar li:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
 
 .sidebar ul {
   list-style: none;
@@ -88,19 +94,21 @@ body {
 }
 
 .sidebar-icon {
-  width: 20px;
+  width: 30px;
   margin-right: 10px;
+  height:30px;;
+
 }
 
 /* Main Content */
 .main-content {
-  margin-left: 350px; /* leave space for sidebar */
+  margin-left: 200px; /* leave space for sidebar */
   margin-top: 100px; /* leave space for navbar */
   padding: 20px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  width:50px;
+  
   margin-right:100px;
 }
 
@@ -109,6 +117,8 @@ body {
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+  width:500px;
+  border:2px solid rgba(0, 0, 0, 0.09);
 }
 
 .notify-form h2 {
@@ -118,13 +128,17 @@ body {
 .notify-form label {
   display: block;
   margin: 10px 0 5px;
+  
 }
 
 .notify-form input {
-  width: 100%;
+  width: 90%;
   padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
+  border: none; /* removes all borders */
+  border-bottom: 2px solid #0a0b0c; /* adds only bottom border */
+  outline: none; /* removes blue browser outline on focus */
+  background: transparent; /* optional, keeps background clean */
+  color: #333; /* make sure text is visible */
 }
 
 .notify-form button {
@@ -133,9 +147,10 @@ body {
   color: white;
   border: none;
   padding: 10px;
-  width: 100%;
+  width: 30%;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 170px;;
 }
 
 .notify-form button:disabled {

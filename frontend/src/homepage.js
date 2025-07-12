@@ -86,6 +86,65 @@ const Homepage = () => {
         </div>
       )}
 
+      <section className="aboutus">
+        <h1>❤️ Who We Are</h1>
+        <div className="divpara">
+          <p className='aboutuspara'>
+          At Foodbridge, we believe that no meal should go to waste when there are millions in need. Our platform seamlessly connects hotels, restaurants, and individuals with local charities and NGOs to share surplus food. With just a few clicks, you can notify nearby organizations, ensuring that every extra plate reaches the people who need it most. Together, let’s bridge the gap between abundance and hunger.
+        </p>
+        </div>
+        
+        <div>
+          <img src="/images/hp2.jpg" className="hpimg"/>
+          <img src="/images/hp3.jpg" className="hpimg"/>
+
+        </div>
+
+        
+      </section>
+      <section className="aboutus">
+        <h1>🛠️ Here’s How We Bridge the Gap</h1>
+        <div className="divpara">
+          <p className='aboutuspara'>
+
+           <div class="how-it-works">
+            <div class="block">
+              <h3>📱 Hotels & NGOs join in seconds</h3>
+            </div>
+
+            <div class="block">
+              <h3>🍱 Hotels notify about surplus food</h3>
+            </div>
+
+            <div class="block">
+              <h3>🚚 NGOs & volunteers collect and serve</h3>
+            </div>
+         </div>
+
+            
+              
+              
+            
+           
+              
+            
+            
+              Pickup & Distribute
+              Nearby NGOs and volunteers collect and deliver the food.
+            
+        </p>
+        </div>
+        
+        <div>
+          <img src="/images/hp6.jpg" className="hpimg"/>
+          <img src="/images/hp7.jpg" className="hpimg"/>
+          <img src="/images/hp8.jpg" className="hpimg"/>
+
+        </div>
+        
+        
+      </section>
+
       {/* Features */}
       <section className="featuresh" id="features">
         <h2 className="fe">Features</h2>

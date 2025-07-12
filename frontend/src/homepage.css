@@ -139,6 +139,32 @@ body {
   background-color: rgb(237, 222, 222);
   padding: 50px 20px;
 }
+.aboutus {
+  background-color: rgb(237, 222, 222);
+  padding: 50px 20px;
+  
+}
+.aboutuspara{
+  color:rgb(237, 133, 133);
+  font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+border-radius: 20px;;}
+.divpara{
+  border-radius:100px;
+  background-color: white;
+  padding:20px;
+}
+.hpimg{
+  width:35%;
+  height:300px;
+  margin-top: 40px;
+  margin-right: 20px;
+  
+  
+  
+
+
+}
 
 .feature-itemh {
   padding: 20px;
@@ -179,5 +205,11 @@ body {
   font-size:50px;
   color:white;
 
+}
+.block{
+  
+  
+  
+  text-align: center;
 }
 

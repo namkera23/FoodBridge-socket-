@@ -75,11 +75,11 @@ const HotelDashboard = () => {
       {/* Navbar */}
       <div className="navbar">
         <div className="logo-section">
-          <img src="/images/logo.png" alt="Foodbridge logo" className="logo-img" />
-          <h1>Foodbridge Dashboard</h1>
+          <img src="/images/logigi2.png" alt="Foodbridge logo" className="logo-img" />
+          <h1> Dashboard</h1>
         </div>
         <div className="navbar-actions">
-          <input type="text" placeholder="Search..." className="search-input" />
+         
           <div className="account-section">
             <img src="/images/profile.png" alt="Profile" className="profile-img" />
             <select
@@ -97,11 +97,11 @@ const HotelDashboard = () => {
       <div className="sidebar">
         <ul>
           <li onClick={() => navigate(`/dashboard/hotel/${hotelId}`)}>
-            <img src="/images/home.png" alt="Home" className="sidebar-icon" />
+            <img src="/images/homolo.jpg" alt="Home" className="sidebar-icon" />
             Home
           </li>
           <li onClick={() => navigate(`/dashboard/hotel/${hotelId}/notifications`)}>
-            <img src="/images/connection.png" alt="Notifications" className="sidebar-icon" />
+            <img src="/images/noto.jpg" alt="Notifications" className="sidebar-icon" />
             Notifications
           </li>
         </ul>
